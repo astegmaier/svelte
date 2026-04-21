@@ -19,6 +19,14 @@
   ],
   "module": "src/index-client.js",
   "main": "src/index-client.js",
+  "sideEffects": [
+    "./src/internal/disclose-version.js",
+    "./src/internal/flags/async.js",
+    "./src/internal/flags/legacy.js",
+    "./src/internal/flags/tracing.js",
+    "./src/internal/index.js",
+    "./tests/**"
+  ],
   "exports": {
     ".": {
       "types": "./types/index.d.ts",

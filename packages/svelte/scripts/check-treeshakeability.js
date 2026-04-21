@@ -57,6 +57,7 @@ for (const key in pkg.exports) {
 	if (key === './compiler') continue;
 	if (key === './internal') continue;
 	if (key === './internal/disclose-version') continue;
+	if (key === './internal/flags/async') continue;
 	if (key === './internal/flags/legacy') continue;
 	if (key === './internal/flags/tracing') continue;
 
